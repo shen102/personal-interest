@@ -130,10 +130,21 @@
   }
 }
 /* Media query for smaller screens */
-@media only screen and (max-width: 768px) {
-
-  /* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
   .footer_container {
-    padding: 30px 20px;
+    padding: 30px 15px;
+    /* Adjust padding for smaller screens */
+  }
+
+  .social_icon a {
+    padding: 8px;
+    /* Adjust social icon padding for smaller screens */
+  }
+
+  .text p {
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    /* Adjust font size for smaller screens */
   }
 }
